@@ -1,1 +1,1 @@
-# postgresql-mit-python-for-data-science
+# Getting Started mit postgresql and python for data science
