@@ -35,7 +35,6 @@ sudo systemctl start postgresql.service
 set password for -user postgres
 ```bash
 sudo -u postgres psql postgres
-Enter new 
 ```
 
 enter the following cmd and set password for postgres user
