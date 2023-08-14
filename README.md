@@ -45,3 +45,29 @@ enter the following cmd and set password for postgres user
 ```bash
 CREATE DATABASE mybusiness;
 ```
+
+> Create table
+> Construct STATEMENT
+```commandline
+ CREATE TABLE
+ ```
+> Connect to the PostgreSQL database
+> Create a cursor
+> Execute the sql statements
+> Finally close the cursor and connection
+> Run the cmd on psql to enter into the database: mybusiness
+```commandline
+\c mybusiness
+```
+```commandline
+mybusiness=# \dt
+```
+
+             List of relations
+ Schema |     Name      | Type  |  Owner   
+--------+---------------+-------+----------
+ public | part_drawings | table | postgres
+ public | parts         | table | postgres
+ public | vendor_parts  | table | postgres
+ public | vendors       | table | postgres
+(4 rows)
